@@ -8,3 +8,5 @@ alias python=python3
 # Test install
 python --version
 pip --version
+# Install pytest
+apt-get install -y python-pytest
