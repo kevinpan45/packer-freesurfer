@@ -1,3 +1,3 @@
 #! /bin/bash
 
-apt-get install -y -qq net-tools lrzsz unzip
+apt-get install -y -qq net-tools lrzsz unzip zip cockpit
