@@ -28,7 +28,6 @@ jobs:
       - name: Packer GitHub Actions
         uses: hashicorp/packer-github-actions@v0.2.0
         with:
-          # command to execute
-          command: packer build
-          # file(s) to target
+          command: build
+          arguments: "-color=false -on-error=abort"
           target: freesurfer-virtualbox.pkr.hcl
