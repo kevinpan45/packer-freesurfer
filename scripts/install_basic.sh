@@ -1,4 +1,4 @@
 #! /bin/bash
 
-apt-get install -y -qq net-tools lrzsz unzip zip cockpit
-apt-get install -y add-apt-repository
+apt-get install -y -q net-tools lrzsz zip unzip cockpit wget
+apt-get install -y -q software-properties-common
