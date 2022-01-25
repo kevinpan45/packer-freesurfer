@@ -7,10 +7,6 @@ Download freesurfer install package from official web site.
 
 ***All script base on freesurfer 6.0.0 edition***
 
-## Build docker image in local
-```
-sh docker-build.sh
-```
 
 ## Test installation
 ```
