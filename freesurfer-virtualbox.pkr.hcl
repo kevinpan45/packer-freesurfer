@@ -40,7 +40,8 @@ build {
   }
 
   provisioner "shell" {
-    scripts = ["./scripts/install.sh"]
+    execute_command = "echo 'packer' | sudo -S sh -c '{{ .Vars }} {{ .Path }}'"
+    scripts         = ["./scripts/install.sh"]
   }
 
 }
